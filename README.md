@@ -96,4 +96,4 @@ Within `{project_path}\src\`:
 In addition, within `{project_path}`:
 - `helper.py` and `h.sh` are used to calculate SSIM score. 
 - `bicubic.py` and `b.sh` are used to generate the baseline result of bicubic upsampling method.
-- `Command.bash` contains most of detailed running commands with corresponding of sbatch files for different purpose.
+- `Command.bash` contains all detailed running commands with corresponding of sbatch files for different purpose.
