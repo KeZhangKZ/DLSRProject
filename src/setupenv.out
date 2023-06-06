@@ -1,0 +1,81 @@
+Collecting pip
+  Using cached pip-22.2.2-py3-none-any.whl (2.0 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.2.4
+    Uninstalling pip-20.2.4:
+      Successfully uninstalled pip-20.2.4
+Successfully installed pip-22.2.2
+Collecting tqdm
+  Using cached tqdm-4.64.1-py2.py3-none-any.whl (78 kB)
+Installing collected packages: tqdm
+Successfully installed tqdm-4.64.1
+Collecting opencv-python
+  Using cached opencv_python-4.6.0.66-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (60.9 MB)
+Collecting numpy>=1.17.3
+  Using cached numpy-1.23.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.1 MB)
+Installing collected packages: numpy, opencv-python
+Successfully installed numpy-1.23.3 opencv-python-4.6.0.66
+Requirement already satisfied: numpy in /home/Student/s4427443/python-3.9-project-vgpu40/lib/python3.9/site-packages (1.23.3)
+Collecting matplotlib
+  Using cached matplotlib-3.6.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.8 MB)
+Requirement already satisfied: numpy>=1.19 in /home/Student/s4427443/python-3.9-project-vgpu40/lib/python3.9/site-packages (from matplotlib) (1.23.3)
+Collecting pyparsing>=2.2.1
+  Using cached pyparsing-3.0.9-py3-none-any.whl (98 kB)
+Collecting kiwisolver>=1.0.1
+  Using cached kiwisolver-1.4.4-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.6 MB)
+Collecting packaging>=20.0
+  Using cached packaging-21.3-py3-none-any.whl (40 kB)
+Collecting fonttools>=4.22.0
+  Using cached fonttools-4.37.4-py3-none-any.whl (960 kB)
+Collecting pillow>=6.2.0
+  Using cached Pillow-9.2.0-cp39-cp39-manylinux_2_28_x86_64.whl (3.2 MB)
+Collecting cycler>=0.10
+  Using cached cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting contourpy>=1.0.1
+  Using cached contourpy-1.0.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (296 kB)
+Collecting python-dateutil>=2.7
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting six>=1.5
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: six, pyparsing, pillow, kiwisolver, fonttools, cycler, contourpy, python-dateutil, packaging, matplotlib
+Successfully installed contourpy-1.0.5 cycler-0.11.0 fonttools-4.37.4 kiwisolver-1.4.4 matplotlib-3.6.1 packaging-21.3 pillow-9.2.0 pyparsing-3.0.9 python-dateutil-2.8.2 six-1.16.0
+Collecting imageio
+  Using cached imageio-2.22.1-py3-none-any.whl (3.4 MB)
+Requirement already satisfied: pillow>=8.3.2 in /home/Student/s4427443/python-3.9-project-vgpu40/lib/python3.9/site-packages (from imageio) (9.2.0)
+Requirement already satisfied: numpy in /home/Student/s4427443/python-3.9-project-vgpu40/lib/python3.9/site-packages (from imageio) (1.23.3)
+Installing collected packages: imageio
+Successfully installed imageio-2.22.1
+Collecting scikit-image
+  Using cached scikit_image-0.19.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (14.0 MB)
+Collecting PyWavelets>=1.1.1
+  Using cached PyWavelets-1.4.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (6.9 MB)
+Requirement already satisfied: packaging>=20.0 in /home/Student/s4427443/python-3.9-project-vgpu40/lib/python3.9/site-packages (from scikit-image) (21.3)
+Collecting scipy>=1.4.1
+  Using cached scipy-1.9.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (33.8 MB)
+Requirement already satisfied: imageio>=2.4.1 in /home/Student/s4427443/python-3.9-project-vgpu40/lib/python3.9/site-packages (from scikit-image) (2.22.1)
+Collecting tifffile>=2019.7.26
+  Using cached tifffile-2022.8.12-py3-none-any.whl (208 kB)
+Requirement already satisfied: pillow!=7.1.0,!=7.1.1,!=8.3.0,>=6.1.0 in /home/Student/s4427443/python-3.9-project-vgpu40/lib/python3.9/site-packages (from scikit-image) (9.2.0)
+Collecting networkx>=2.2
+  Using cached networkx-2.8.7-py3-none-any.whl (2.0 MB)
+Requirement already satisfied: numpy>=1.17.0 in /home/Student/s4427443/python-3.9-project-vgpu40/lib/python3.9/site-packages (from scikit-image) (1.23.3)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /home/Student/s4427443/python-3.9-project-vgpu40/lib/python3.9/site-packages (from packaging>=20.0->scikit-image) (3.0.9)
+Installing collected packages: tifffile, scipy, PyWavelets, networkx, scikit-image
+Successfully installed PyWavelets-1.4.1 networkx-2.8.7 scikit-image-0.19.3 scipy-1.9.2 tifffile-2022.8.12
+Looking in links: https://download.pytorch.org/whl/torch_stable.html
+Collecting torch==1.9.0+cu111
+  Downloading https://download.pytorch.org/whl/cu111/torch-1.9.0%2Bcu111-cp39-cp39-linux_x86_64.whl (2041.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 GB 266.2 kB/s eta 0:00:00
+Collecting torchvision==0.10.0+cu111
+  Downloading https://download.pytorch.org/whl/cu111/torchvision-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl (23.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23.1/23.1 MB 837.9 kB/s eta 0:00:00
+Collecting torchaudio==0.9.0
+  Downloading torchaudio-0.9.0-cp39-cp39-manylinux1_x86_64.whl (1.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 18.7 MB/s eta 0:00:00
+Collecting typing-extensions
+  Downloading typing_extensions-4.4.0-py3-none-any.whl (26 kB)
+Requirement already satisfied: pillow>=5.3.0 in /home/Student/s4427443/python-3.9-project-vgpu40/lib/python3.9/site-packages (from torchvision==0.10.0+cu111) (9.2.0)
+Requirement already satisfied: numpy in /home/Student/s4427443/python-3.9-project-vgpu40/lib/python3.9/site-packages (from torchvision==0.10.0+cu111) (1.23.3)
+Installing collected packages: typing-extensions, torch, torchvision, torchaudio
+Successfully installed torch-1.9.0+cu111 torchaudio-0.9.0 torchvision-0.10.0+cu111 typing-extensions-4.4.0
