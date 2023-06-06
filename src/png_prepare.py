@@ -40,7 +40,7 @@ def png_helper(origin_path, hr_png_path, lr_png_path, args):
             if args.x8:
                 lr_img_x8 = cv2.resize(hr_img, (0,0), fx=1/8, fy=1/8, interpolation=cv2.INTER_CUBIC)
                 cv2.imwrite(f"{lr_png_path}/X8/{pure_filename}_{i}x8.png", lr_img_x8)
-        break
+        
     print("Finish png generation")
     
 if __name__ == '__main__':
